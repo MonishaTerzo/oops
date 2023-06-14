@@ -1,6 +1,7 @@
 import java.util.*;
 
 // ****************************simple project on student or employee(it employee or government employee)***************************//
+//..................usage of single multilevel and multiple ingeritance.................
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
