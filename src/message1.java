@@ -4,7 +4,7 @@ public class message1 {
     int money;
     message1(){
         System.out.println("Dear customer,");
-        System.out.println("Your current account balance is checked in the ATM of canara bank .....if it is not u kindly contact the bank....");
+        System.out.println("Your current account balance  is checked in the ATM of canara bank .....if it is not u kindly contact the bank....");
     }
     message1(int balance,int money){
         super();

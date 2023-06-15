@@ -92,7 +92,7 @@ public class Main {
                     current cur=new current();
                     System.out.println("1:withdrawl");
                     System.out.println("2:checkbalance");
-                    System.out.println("3:deposit");
+                    System.out.println("3:deposit ");
                     int check=sc.nextInt();
                     if(check==1){
                         System.out.println("Enter the amount to withdraw");

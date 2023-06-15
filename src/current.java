@@ -1,4 +1,5 @@
 public class current extends saving{
+    //savings
     int amount;
     current(){
         this.amount=1000000;

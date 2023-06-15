@@ -13,8 +13,8 @@ public class saving extends verification{
     public int balance(){
         return balance;
     }
-    public void deposit(int mm){
-        balance=balance+mm;
+    public void deposit(int ml){
+        balance=balance+ml;
     }
 
     //sending the messege to the customers phonr number

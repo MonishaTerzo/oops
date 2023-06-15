@@ -7,7 +7,7 @@ public class verification {
        static   String name;
 
           verification(){
-              System.out.println("kindly check your details..........");
+              System.out.println("kindly check your  details..........");
           }
     verification(int n){
         if(n==1004) {

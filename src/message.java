@@ -2,7 +2,7 @@ public class message extends  saving {
     int money;
    //...............Messege for avings account.................
     message(){
-        System.out.println("Your balance is checked in the ATM of canara bank .....if it is not u kindly contact the bank....");
+        System.out.println("Your balance is  checked in the ATM of canara bank .....if it is not u kindly contact the bank....");
     }
     message(int balance,int money){
         super();
