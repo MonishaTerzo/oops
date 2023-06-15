@@ -1,18 +1,13 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+//......................In this example company profit is changed by indirect set method..................
 public class Main {
     public static void main(String[] args) {
-        // Press Opt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-        System.out.println(0);
-
-        // Press Ctrl+R or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
-
-            // Press Ctrl+D to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Cmd+F8.
-            System.out.println("i = " + i);
+        Encapsulation e=new Encapsulation(12-0000000,"aaa",3400000);
+       //to get the profit of compant
+       int profit= e.getProfit();
+        System.out.println(profit);
+        //to change the profit of the company
+        e.setProfit(890000);
+        int changedprofit=e.getProfit();
+        System.out.println(changedprofit);
         }
     }
-}
