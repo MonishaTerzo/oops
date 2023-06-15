@@ -101,6 +101,7 @@ public class Main {
                         System.out.println("hi.."+ gh+" your money is withdrawl...");
                         System.out.println();
                         //message sended to the customer through phn no........
+                        //different class is created to make the different message that money is transfered from current account
                         message1 mm=new message1(money,100000);
                     }
                     else if(check==2){
